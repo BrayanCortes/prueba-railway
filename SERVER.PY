@@ -1,6 +1,7 @@
 import socketio
 from prueba import probando
 
+
 sio = socketio.Server(cors_allowed_origins='*')
 app = socketio.WSGIApp(sio)
 
