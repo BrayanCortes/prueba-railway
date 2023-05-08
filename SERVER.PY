@@ -20,7 +20,7 @@ def disconnect(sid):
 @sio.event
 def message(sid, data):
     
-    sio.emit('response', probando(data), room=sid)
+    sio.emit('response', "XD", room=sid)
 
 if __name__ == '__main__':
     import eventlet
