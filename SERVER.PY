@@ -2,7 +2,7 @@ import socketio
 from prueba import probando
 
 
-sio = socketio.Server(cors_allowed_origins='*')
+sio = socketio.Server(cors_allowed_origins='https://repo-prueba-vercel-omega.vercel.app/')
 app = socketio.WSGIApp(sio)
 
 
